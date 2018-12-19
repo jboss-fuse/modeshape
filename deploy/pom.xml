@@ -3,12 +3,13 @@
   <parent>
     <groupId>org.modeshape</groupId>
     <artifactId>modeshape-parent</artifactId>
-    <version>5.5-SNAPSHOT</version>
-    <relativePath>../modeshape-parent</relativePath>
+    <version>5.5.0.fuse-730003</version>
+       <relativePath>../modeshape-parent</relativePath>
   </parent>
 
   <groupId>org.modeshape.deploy</groupId>
   <artifactId>modeshape-deploy</artifactId>
+  <version>5.5.0.fuse-730003</version>
   <packaging>pom</packaging>
 
   <name>ModeShape Deployment Components</name>
