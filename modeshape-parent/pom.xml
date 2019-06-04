@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.modeshape</groupId>
     <artifactId>modeshape</artifactId>
-	<version>5.4.1.Final</version>
+	<version>5.4.1.Final.fuse-740007</version>
   </parent>
 
     <modelVersion>4.0.0</modelVersion>
