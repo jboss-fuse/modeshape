@@ -60,7 +60,18 @@
     </modules>
 	<properties>
 		<rootDir>${project.basedir}</rootDir>
+                <maven-deploy-plugin.version>2.8.2</maven-deploy-plugin.version>
 	</properties>
+
+        <dependencyManagement>
+            <dependencies>
+                <dependency>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-deploy-plugin</artifactId>
+                    <version>${maven-deploy-plugin.version}</version>
+                </dependency>
+            </dependencies>
+        </dependencyManagement>
 
 	<profiles>
 		<!-- 
